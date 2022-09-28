@@ -1,0 +1,19 @@
+/*
+ * A simple CSS file to be used as an example of CSS including in complex.php
+ */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.orange {
+    background-color: #ff4800;
+    color: #fff;
+}
+
+.center {
+    text-align: center;
+    padding: 1rem;
+}
+

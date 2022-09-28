@@ -1,0 +1,11 @@
+# This is a simple configuration of the Apache/httpd container.
+# Just some port/folder mapping, nothing interesting.
+version: '3.9'
+services:
+  apache:
+    image: php:8-apache
+    container_name: php-playground
+    ports:
+    - '8080:80'
+    volumes:
+    - ./www:/var/www/html
